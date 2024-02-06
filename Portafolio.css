@@ -1,0 +1,770 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*------------primera contenedor---------*/
+.header1{
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 10px;
+}
+.header h1 {
+    text-align: center;
+    color: rgb(44, 53, 175);
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.header nav ul li a:hover {
+    color: rgb(44, 53, 175);
+}
+
+.header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+.header .redes a:hover {
+    color: rgb(44, 53, 175);
+}
+
+/*-----------------segundo_contenedor--------------*/
+#inicio{
+    background-image: url(./pngtree-matrix-code-abstract-programming-background-image_908363.png);
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    z-index: 9;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nombre{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.h1{
+    margin-right: 10px;
+    font-size: 40px;
+}
+.h2{
+    font-size: 20px;
+    text-align: end;
+    margin-top: 3%;
+    margin-right: 10px;
+    color: rgb(121, 130, 255);
+}
+.h3{
+    font-size: 40px;
+}
+.parrafo{
+    margin-bottom: 10%;
+}
+.boton{
+    border-radius: 50px;
+    padding: 15px 50px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------------tercera_contenedor------------*/
+#sobre_mi{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.foto_p{
+    width: 30%;
+}
+#foto_p1{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    margin: 25%;
+    border: solid rgb(210, 210, 210) 10px;
+    border-radius: 5px;
+}
+.descripcion{
+    width: 70%;
+}
+.text{
+    position: relative;
+    margin: 15%;
+}
+.sobremi{
+    text-decoration: underline solid 3px gray;
+    margin-bottom: 3%;
+}
+.hola1{
+    font-size: 20px;
+    margin-bottom: 3%;
+    font-weight: 800;
+}
+.nombre1{
+    color:  rgb(44, 53, 175);
+}
+.des{
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.lor{
+    color: rgb(152, 152, 152);
+    margin-bottom: 3%;
+}
+.desc{
+    border-radius: 50px;
+    padding: 5px 30px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+}
+.desc1{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*----------Cuarta parte---------*/
+
+#servicios{
+    background-color:rgb(210, 210, 210) ;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 5%;
+}
+.tittle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mis_servicios{
+    display: flex;
+    justify-content: start;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-decoration: underline solid 3px gray;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;    
+    }
+.card1{
+    font-size: small;
+    background-color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 35vh;
+    }
+.textoA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.icono{
+    border-radius: 50px;
+    padding: 15px;
+    width: 15px;
+    background-color:rgb(210, 210, 210) ;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    /*border: 2px solid rgb(113, 113, 177);*/
+    color: black;
+    }
+.texto1{
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    margin-bottom: 5%;
+    }
+.UnderScor{
+    width: 30%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+    }
+.texto1_1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    padding: 0 10%;
+    color:rgb(0, 0, 0);
+    margin-bottom: 5%;
+    }
+.texto1_1_1{
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.parrafo2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    }
+
+/*------------- Quinto contenedor ---------*/
+
+.habilidades {
+    background: linear-gradient(  rgb(44, 53, 175),rgba(33, 16, 16, 0.8)), url("./garganttua.png") ;
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.habilidades .habilidades1 {
+    max-width: 50%;
+    margin: 30px auto;
+}
+
+.habilidades .habilidades1 .barras {
+    display: flex;
+    justify-content: space-between;
+}
+.habilidades .habilidades1 .lista {
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.progreso{
+    width: 100%;
+}
+.progreso progress{
+    width: 100%;
+}
+progress{
+    border-radius: 10px;
+    height: 10px;
+}
+
+/*----------Sexto contenedor-------------*/
+
+#portafolio {
+    width: 100%;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#portafolio .misProyectos {
+    text-align: center;
+    font-size: 22px;
+    color:black;
+    text-decoration: underline 5px rgb(44, 53, 175);
+}
+
+#portafolio .misProyectos1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    margin: 3%;
+}
+#portafolio .proyecto{
+    width: 100%;
+    height: 14vw;
+}
+
+#portafolio .misProyectos1 .proyecto {
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#portafolio .misProyectos1 .proyecto img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+
+#portafolio .misProyectos1 .proyecto:hover img {
+    filter: grayscale(0);
+}
+
+#portafolio .misProyectos1 .proyecto .upInf {
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(111, 121, 255);
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+#portafolio .misProyectos1 .proyecto:hover .upInf {
+    opacity: 1;
+    bottom: 0;
+}
+
+/*------------Septimo contenedor-----------*/
+
+#contacto {
+    padding: 10px 15px;
+    background-color: rgb(216, 216, 216);
+}
+
+.titulo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline 3px rgb(44, 53, 175);
+    font-size: 25px;
+}
+
+.Formulario {
+    max-width: 1100px;
+    margin: auto;
+}
+.part1 {
+    display: flex;
+    justify-content: space-between;   
+    padding-bottom: 3%;
+}
+
+.partA {
+    width: 100%;
+    margin-right:3%;
+}
+.partB {
+    width: 100%;
+}
+
+.part2 {
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+#contacto .Formulario input,
+#contacto .Formulario textarea {
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+.input-full {
+    width: 96%;
+}
+
+#contacto .btn-enviar {
+    display: block;
+    margin: 30px auto;
+    transition: .2s;
+    padding: 11px 16px ;
+}
+
+.final {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.final a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 4px;
+    font-size: 20px;
+}
+.final .redes a:hover {
+    color: rgb(44, 53, 175);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* ------Primera parte------- */
+    .header {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .header h1 {
+        text-align: center;
+        color: rgb(44, 53, 175);
+        font-size: x-large;
+    }
+    #links{
+        display: flex;
+        flex-direction: column;
+    }
+    .header nav ul li {
+        text-decoration: none;
+        color: #fff;
+        margin-top: 5px;
+        font-weight: 400;
+        transition: .5s;
+    }
+    .header .redes {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        margin-top: 8px;
+        transition: .5s;
+
+    }
+
+    /* -----segunda parte----- */
+
+    #inicio{
+        background-image: url(./pngtree-matrix-code-abstract-programming-background-image_908363.png);
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(50, 50, 50);
+        background-blend-mode: soft-light;
+        color: white;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        z-index: 9;
+    }
+
+    .texto{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
+
+    .h2{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 3%;
+        margin-right: 10px;
+        color: rgb(121, 130, 255);
+    }
+
+    .nombre{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-bottom: 8%;
+        transition: 1s;
+    }
+
+    .boton{
+        border-radius: 50px;
+        padding: 5px 18px;
+        border: 2px solid white;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* ------Tercera parte------ */
+
+    #sobre_mi{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .foto_p{
+        margin-left: 33%;
+        margin-right:20%;
+        margin-top: 5% ;
+        margin-bottom: 0;
+    }
+
+    #foto_p1{
+        width: 150px;
+        height: 200px;
+        position: relative;
+        margin: 1%;
+        border: solid rgb(210, 210, 210) 10px;
+        border-radius: 5px;
+        transition: .5s;
+    }
+
+    .text{
+        position: relative;
+        margin: 5%;
+    }
+
+    .descripcion{
+        width: 100%;
+        transition: .5s;
+    }
+    #sobre_mi .text h1{
+        font-size: xx-large;
+        transition: .5s;
+    }
+
+    /* ------cuarta parte------ */
+
+    #servicios{
+        background-color:rgb(210, 210, 210) ;
+        width: 100%;
+        height: 290vh;
+        padding-bottom: 5%;
+        transition: .5s;
+    }
+
+    .mis_servicios{
+        display: flex;
+        justify-content: start;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        text-decoration: underline solid 3px gray;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 20px; 
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;    
+        transition: .5s;
+        }
+
+     .card1{
+        font-size: small;
+        background-color: white;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 42vh;
+        }
+
+    /*------------- Quinto contenedor ---------*/
+
+    .habilidades {
+        width: 100%;
+        height: 60vh;
+        padding: 10% 0;
+    }
+
+    /* -------Sexto contenedor------ */
+
+    #portafolio .misProyectos1 .proyecto .upInf {
+        position: absolute;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: rgb(111, 121, 255);
+        width: 100%;
+        padding: 0;
+        opacity: 0;
+        bottom: -40px;
+        transition: .5s;
+    }
+}
+
+
+
+@media screen and  (min-width: 601px) and ( max-width: 1250px){
+
+     /* ------Primera parte------- */
+     .header {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 5px 10px;
+    }
+    .header h1 {
+        text-align: center;
+        color: rgb(44, 53, 175);
+        font-size: x-large;
+    }
+    #links{
+        display: flex;
+        flex-direction: column;
+    }
+    .header nav ul li {
+        text-decoration: none;
+        color: #fff;
+        margin-top: 5px;
+        font-weight: 400;
+        transition: .5s;
+    }
+    .header .redes {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        margin-top: 8px;
+        transition: .5s;
+
+    }
+
+    /* -----segunda parte----- */
+
+    #inicio{
+        background-image: url(./pngtree-matrix-code-abstract-programming-background-image_908363.png);
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(50, 50, 50);
+        background-blend-mode: soft-light;
+        color: white;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        z-index: 9;
+    }
+
+    .texto{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -35%);
+    }
+
+    .h2{
+        font-size: 20px;
+        text-align:center;
+        margin-top: 3%;
+        margin-right: 10px;
+        color: rgb(121, 130, 255);
+    }
+
+    .nombre{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-bottom: 8%;
+        transition: 1s;
+    }
+
+    .boton{
+        border-radius: 50px;
+        padding: 5px 18px;
+        border: 2px solid white;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* ------Tercera parte------ */
+
+    #sobre_mi{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+    }
+    .foto_p{
+        width: 20%;
+    }
+    #foto_p1{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        margin: 25%;
+        border: solid rgb(210, 210, 210) 10px;
+        border-radius: 5px;
+    }
+    .descripcion{
+        width: 80%;
+    }
+    .text{
+        position: relative;
+        margin-left: 30%;
+        margin-top: 10%;
+        margin-bottom: 0;
+        margin-right: 5%;
+    }
+    .sobremi{
+        text-decoration: underline solid 3px gray;
+        margin-bottom: 3%;
+    }
+
+    /* ------cuarta parte------ */
+
+    #servicios{
+        background-color:rgb(210, 210, 210) ;
+        width: 100%;
+        height: 160vh;
+        padding-bottom: 5%;
+        transition: .5s;
+    }
+
+    .mis_servicios{
+        display: flex;
+        justify-content: start;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        text-decoration: underline solid 3px gray;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;    
+        transition: .5s;
+        }
+
+     .card1{
+        font-size: small;
+        background-color: white;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+        height: 45vh;
+        }
+
+  
+    
+}
